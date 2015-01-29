@@ -152,7 +152,7 @@ footer p {
         display: inherit;
         margin: 0;
         padding: 0px 0px 12px;
-        text-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+        text-shadow: 3px 3px 4px rgba(0,0,0,1);
         font-family: "EB+Garamond",serif;
         font-variant: small-caps;
         text-align: center;
@@ -181,7 +181,7 @@ footer p {
     }
 
     .nav>li>a {
-        padding: 5px 35px;
+        padding: 5px 15px;
     }
 
     .navbar-nav>li>a {
@@ -216,21 +216,8 @@ footer p {
     height: 120px;
     background: url(../img/GUSTOLOGOwhite.svg);
     background-size: 270px 120px;
-    -webkit-filter: drop-shadow( 5px 5px 5px #000 );
-    filter: drop-shadow( 5px 5px 5px #000 );
+    -webkit-filter: drop-shadow( 5px 5px 5px rgba(0,0,0,1) );
+    filter: drop-shadow( 5px 5px 5px rgba(0,0,0,1) );
 
 }
 
-
-/*    display: inherit;
-        margin: 0;
-        padding: 30px 0 10px;
-        text-align: center;
-        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Dorsa",Arial,sans-serif;
-        font-size: 8em;
-        font-weight: 500;
-        font-kerning: auto;
-        letter-spacing: 2px;
-        line-height: normal;
-        color: #fff; */
