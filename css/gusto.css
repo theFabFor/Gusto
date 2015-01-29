@@ -48,10 +48,11 @@ hr {
 }
 
 .navbar-brand {
-    text-transform: uppercase;
-    font-family: "Dorsa",Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 2px;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: "EB+Garamond",serif;
+    font-weight: 100;
+    letter-spacing: 5px;
 }
 
 .navbar-nav {
@@ -150,13 +151,14 @@ footer p {
     .address-bar {
         display: inherit;
         margin: 0;
-        padding: 0 0 40px;
-       text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
-        font-family: "Dorsa",Arial,sans-serif;
+        padding: 0px 0px 12px;
+        text-shadow: 5px 5px 5px rgba(0,0,0,0.8);
+        font-family: "EB+Garamond",serif;
+        font-variant: small-caps;
         text-align: center;
-        font-size: 2.5em;
-        font-weight: 700;
-        letter-spacing: 5px;
+        font-size: 18px;
+        font-weight: 200;
+        letter-spacing: 6px;
         color: #fff;
     }
 
@@ -203,5 +205,32 @@ footer p {
     }
 }
 .center-image {
-    margin: 0 auto
+    margin: 0 auto;
 }
+
+.logo {
+    display: inherit;
+    margin-top: 5px;
+    text-indent: -9999px;
+    width: 270px;
+    height: 120px;
+    background: url(../img/GUSTOLOGOwhite.svg);
+    background-size: 270px 120px;
+    -webkit-filter: drop-shadow( 5px 5px 5px #000 );
+    filter: drop-shadow( 5px 5px 5px #000 );
+
+}
+
+
+/*    display: inherit;
+        margin: 0;
+        padding: 30px 0 10px;
+        text-align: center;
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+        font-family: "Dorsa",Arial,sans-serif;
+        font-size: 8em;
+        font-weight: 500;
+        font-kerning: auto;
+        letter-spacing: 2px;
+        line-height: normal;
+        color: #fff; */
