@@ -221,3 +221,10 @@ footer p {
 
 }
 
+.panel > .panel-heading {
+    background-image: none;
+    background-color: #cc0000;
+    color: white;
+
+}
+
