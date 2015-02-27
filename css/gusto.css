@@ -235,3 +235,9 @@ footer p {
 .img-margin {
     margin-top: 10px;
 }
+
+.center-widget {
+    margin-right: auto;
+    margin-left: auto;
+    *zoom: 1;
+}
